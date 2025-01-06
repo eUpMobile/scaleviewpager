@@ -1,0 +1,28 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eupmobile",
+    "module": "scaleviewpager",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "scaleviewpager-1.0.1.aar",
+          "url": "scaleviewpager-1.0.1.aar"
+        }
+      ]
+    }
+  ]
+}
